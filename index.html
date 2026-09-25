@@ -30,8 +30,7 @@
 
             chatBox.innerHTML += `<p><strong>You:</strong> ${message}</p>`;
             inputEl.value = '';
-
-            // Replace your old 'try' block with this:
+            
         try {
             const response = await fetch(`https://googleapis.com{API_KEY}`, {
                 method: 'POST',
